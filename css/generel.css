@@ -3,13 +3,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #262626;
   font-family: mr-eaves-modern, sans-serif;
+}
+
+h1 {
+  font-family: presicav, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+h2 {
+  font-family: presicav, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+h3 {
+  font-family: presicav, sans-serif;
+  font-weight: bold;
+  font-style: normal;
 }
 
 main {
   margin: 50px 100px;
-  color: white;
+  color: black;
 }
 
 img {
@@ -20,10 +35,11 @@ img {
 
 /* Menu css */
 header {
-  background-color: #262626;
+  background-color: white;
   /* SKAL GØRES SENERE SÅ MENUEN FØLGER MED */
   /* position: fixed; */
   width: 100%;
+  color: #262626;
 }
 
 li {
@@ -31,17 +47,22 @@ li {
 }
 
 a {
-  color: white;
+  color: #262626;
   text-decoration: none;
 }
 
 .navbar {
-  min-height: 70px;
+  height: 70px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
-  box-shadow: 1px -8px 19px 6px black;
+  box-shadow: 1px -8px 19px 3px black;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  z-index: 1;
 }
 
 .nav-menu {
@@ -57,7 +78,7 @@ a {
 }
 
 .nav-branding:hover {
-  color: orange;
+  color: rgb(255, 132, 0);
 }
 
 .nav-link {
@@ -65,7 +86,7 @@ a {
 }
 
 .nav-link:hover {
-  color: orange;
+  color: rgb(255, 132, 0);
 }
 
 /* Hamburger menu css */
@@ -79,7 +100,7 @@ a {
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background-color: white;
+  background-color: #262626;
 }
 
 article {
@@ -111,7 +132,7 @@ span {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #262626;
+    background-color: white;
     width: 100%;
     text-align: center;
     transition: 0.3s;
